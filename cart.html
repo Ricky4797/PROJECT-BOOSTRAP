@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kafe Saya | Cart</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
+    />
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <a class="navbar-brand" href="#">Keranjang Anda</a>
+
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item me-5">
+              <a href="index.html" class="nav-link"
+                ><i class="bi bi-house-door"></i> Home</a
+              >
+            </li>
+            <li class="nav-item me-5">
+              <a href="produk.html" class="nav-link"
+                ><i class="bi bi-bag-dash"></i> Produk</a
+              >
+            </li>
+            <li class="nav-item me-5">
+              <a href="promo.html" class="nav-link"
+                ><i class="bi bi-ticket-perforated"></i> Promo</a
+              >
+            </li>
+            <li class="nav-item me-5">
+              <a href="#" class="nav-link active"
+                ><i class="bi bi-cart"></i> Cart</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVIGATION TUTUP -->
+
+    <!-- MAIN TABLE -->
+    <div class="container-fluid py-5">
+      <div class="container">
+        <h2 class="text-center md-5">Keranjang Belanja</h2>
+        <div class="table-responsive">
+          <table class="table table-bordered table-hover align-middle">
+            <thead class="table-warning">
+              <tr>
+                <th>Gambar</th>
+                <th>Produk</th>
+                <th>Harga</th>
+                <th>Jumlah</th>
+                <th>Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <a
+                    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWldJbnVcHgZyDX0f5NnvTD-dmhC1y3GeZBA&sclass="
+                    data-lightbox="produk"
+                    data-title="Americano"
+                  >
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWldJbnVcHgZyDX0f5NnvTD-dmhC1y3GeZBA&sclass="
+                      width="100px"
+                      alt="Americano"
+                      class="img-thumbnail"
+                    />
+                  </a>
+                </td>
+                <td>Americano</td>
+                <td>Rp. 12.000</td>
+                <td>3</td>
+                <td>Rp. 36.000</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7juJFjNpxBdXdoUWJU9q0MXcysymUE7etJJyCYIxEsRcrFbBjzpikfFM&s=10class="
+                    data-lightbox="produk"
+                    data-title="Matcha"
+                  >
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7juJFjNpxBdXdoUWJU9q0MXcysymUE7etJJyCYIxEsRcrFbBjzpikfFM&s=10class="
+                      width="100px"
+                      alt="Matcha"
+                      class="img-thumbnail"
+                    />
+                  </a>
+                </td>
+                <td>Matcha</td>
+                <td>Rp. 15.000</td>
+                <td>2</td>
+                <td>Rp. 30.000</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMrnPlDos_T3q_jLgngLZ7jjp8VyOOwEDeLE7olFx7J_q8LfE4Gl_hUp6t&s=10class="
+                    data-lightbox="produk"
+                    data-title="Kopi Gula Aren"
+                  >
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMrnPlDos_T3q_jLgngLZ7jjp8VyOOwEDeLE7olFx7J_q8LfE4Gl_hUp6t&s=10class="
+                      width="100px"
+                      alt="Kopi gula Aren"
+                      class="img-thumbnail"
+                    />
+                  </a>
+                </td>
+                <td>Kopi Gula Aren</td>
+                <td>Rp. 14.000</td>
+                <td>2</td>
+                <td>Rp. 28.000</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr class="table-warning">
+                <th colspan="4" class="text-end">Total :</th>
+                <th>Rp. 94.000</th>
+              </tr>
+            </tfoot>
+          </table>
+          <div class="text-end">
+            <button class="btn btn-warning text-light">Checkout</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MAIN TABLE TUTUP -->
+
+    <!-- SECTION SUBSCRIBE -->
+    <div class="container-fluid py-5 footer">
+      <div class="container">
+        <h5 class="text-center text-light mb-3">Meet Us</h5>
+        <!-- LOGO -->
+        <div class="d-flex justify-content-center mb-5" style="gap: 70px">
+          <a
+            href="https://facebook.com/username"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a
+            href="https://instagram.com/username"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a
+            href="https://twitter.com/username"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="bi bi-twitter-x"></i>
+          </a>
+          <a
+            href="https://youtube.com/@username"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="bi bi-youtube"></i>
+          </a>
+        </div>
+        <h5 class="text-center text-light mb-1">Subscribe</h5>
+        <p class="text-center text-muted mb-3">
+          for information about promotions
+        </p>
+        <!-- SUBSCRIBE -->
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="input-group">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Write Your Email"
+              />
+              <button class="btn btn-warning text-light">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SUBSCRIBE TUTUP -->
+
+    <!--Footer-->
+    <footer class="bg-dark text-light py-4">
+      <div class="container">
+        <div class="row text-center text-md-start">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <h5 class="fw-bold">Restaurant Saya</h5>
+            <p class="text-muted small">Tempat Makan enak, nyaman, dan terjangkau untuk semua kalangan.</p>
+          </div>
+          <div class="col-md-4 mb-3 mb-md-0">
+            <h6 class="fw-bold mb-3">Navigasi</h6>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-muted text-decoration-none">Home</a></li>
+              <li><a href="#" class="text-muted text-decoration-none">Produk</a></li>
+              <li><a href="#" class="text-muted text-decoration-none">promo</a></li>
+              <li><a href="#" class="text-muted text-decoration-none">Reservasi</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h6 class="fw-bold mb-3">Kontak</h6>
+            <ul class="list-unstyled text-muted small">
+              <li class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i>Jl Kesamben, 123, Jombang</li>
+              <li class="mb-1"><i class="bi bi-telephone-fill me-2"></i>+62 812 3456 7890</li>
+              <li><i class="bi bi-envelope-fill me-2"></i>NasiPadang@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+        <hr class="border secondary mt-4 mb-3">
+        <p class="text-center text-muted small mb-0">
+          &copy; 2026 Resto saya.All Rights Reserved
+        </p>
+      </div>
+    </footer>
+    <!-- FOOTER TUTUP -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kafe Saya | Promo</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
+    />
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <a class="navbar-brand" href="#">Promo Di Kafe</a>
+
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item me-5">
+              <a href="index.html" class="nav-link"
+                ><i class="bi bi-house-door"></i> Home</a
+              >
+            </li>
+            <li class="nav-item me-5">
+              <a href="produk.html" class="nav-link"
+                ><i class="bi bi-bag-dash"></i> Produk</a
+              >
+            </li>
+            <li class="nav-item me-5">
+              <a href="#" class="nav-link active"
+                ><i class="bi bi-ticket-perforated"></i> Promo</a
+              >
+            </li>
+            <li class="nav-item me-5">
+              <a href="cart.html" class="nav-link"><i class="bi bi-cart"></i> Cart</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVIGATION TUTUP -->
+
+    <!-- SECTION BANNER -->
+    <div
+      class="container-fluid produk-banner align-items-center d-flex justify-content-center"
+    >
+      <div class="container">
+        <h1 class="text-light text-center mb-3">Semua Promo untuk anda</h1>
+        <div class="col-md-8 offset-md-2"></div>
+      </div>
+    </div>
+    <!-- BANNER TUTUP -->
+
+    <!-- SECTION PROMO -->
+    <div class="container-fluid py-5">
+      <div class="container">
+        <!-- KATEGORI PROMO -->
+        <div class="row justify-content-center mb-4">
+          <div class="col-sm-4 col-md-3 col-lg-2 mb-2">
+            <div
+              class="btn btn-outline-warning w-100 fs-5 filter-btn active"
+              data-target="semuaPromo"
+            >
+              Semua Promo
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-3 col-lg-2 mb-2">
+            <div
+              class="btn btn-outline-warning w-100 fs-5 filter-btn"
+              data-target="promoDiskon"
+            >
+              Promo Diskon
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-3 col-lg-2 mb-2">
+            <div
+              class="btn btn-outline-warning w-100 fs-5 filter-btn"
+              data-target="promoBonus"
+            >
+              Promo Bonus
+            </div>
+          </div>
+
+          <!-- ISI SEMUA PROMO -->
+          <div id="semuaPromo" class="promo-section">
+            <div class="row g-4">
+              <!-- CARD 1 -->
+              <div class="col-sm-6 col-lg-3 hovered-card">
+                <div class="card">
+                  <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWldJbnVcHgZyDX0f5NnvTD-dmhC1y3GeZBA&sclass=" data-lightbox="semua-promo" data-title="Americano">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWldJbnVcHgZyDX0f5NnvTD-dmhC1y3GeZBA&sclass=" alt="Americano" class="card-img-top" />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">Americano</h5>
+                    <p class="card-text">Nikmati Americano favoritmu dengan potongan harga 15%!, lebih hemat!</p>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 2 -->
+              <div class="col-sm-6 col-lg-3 hovered-card">
+                <div class="card">
+                  <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7juJFjNpxBdXdoUWJU9q0MXcysymUE7etJJyCYIxEsRcrFbBjzpikfFM&s=10class=" data-lightbox="semua-promo" data-title="Matcha">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7juJFjNpxBdXdoUWJU9q0MXcysymUE7etJJyCYIxEsRcrFbBjzpikfFM&s=10class=" alt="Matcha" class="card-img-top" />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">Matcha</h5>
+                    <p class="card-text">Beli 2 Matcha, DISKON Rp5.000! Makin banyak beli, makin hemat!</p>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 3 -->
+              <div class="col-sm-6 col-lg-3 hovered-card">
+                <div class="card">
+                  <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMrnPlDos_T3q_jLgngLZ7jjp8VyOOwEDeLE7olFx7J_q8LfE4Gl_hUp6t&s=10class=" data-lightbox="semua-promo" data-title="Kopi Gula Aren">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMrnPlDos_T3q_jLgngLZ7jjp8VyOOwEDeLE7olFx7J_q8LfE4Gl_hUp6t&s=10class=" alt="Kopi Gula Aren" class="card-img-top" />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">Kopi Gula Aren</h5>
+                    <p class="card-text">Dari Rp14.000 jadi cuma Rp12.000! perpaduan antara gula aren dengan kopi begitu nikmat, wajib coba!</p>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 4 -->
+              <div class="col-sm-6 col-lg-3 hovered-card">
+                <div class="card">
+                  <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9BTdIkKZku4HnwCZH9cO7-wX_0qV-tu3D4BSFptoDgw&s=10" data-lightbox="semua-promo" data-title="Kentang Goreng">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9BTdIkKZku4HnwCZH9cO7-wX_0qV-tu3D4BSFptoDgw&s=10" alt="Kentang Goreng" class="card-img-top" />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">Kentang Goreng</h5>
+                    <p class="card-text">PROMO SPESIAL! Kentang Goreng dari Rp19.000 jadi Rp16.000! renyah dan gurih, dijamin bikin nambah!</p>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 5 -->
+              <div class="col-sm-6 col-lg-3 hovered-card">
+                <div class="card">
+                  <a href="https://sumbarfokus.com/wp-content/uploads/2023/10/Resep-Es-Teh.jpg" data-lightbox="semua-promo" data-title="Es Teh">
+                    <img src="https://sumbarfokus.com/wp-content/uploads/2023/10/Resep-Es-Teh.jpg" alt="Es Teh" class="card-img-top" />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">Es Teh</h5>
+                    <p class="card-text">Setiap pembelian Rp20.000 GRATIS Es Teh! Makan dan Mimum enak, bonusnya makin mantap!</p>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 6 -->
+              <div class="col-sm-6 col-lg-3 hovered-card">
+                <div class="card">
+                  <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSITz3b3wFlleH8xtvlG6tWmMzm2eL1VUjYnCi0ADpAEg&s=10class=" data-lightbox="semua-promo" data-title="Coca Cola">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSITz3b3wFlleH8xtvlG6tWmMzm2eL1VUjYnCi0ADpAEg&s=10class=" alt="Coca Cola" class="card-img-top" />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">Coca Cola</h5>
+                    <p class="card-text">datang ber-3? GRATIS 1 Coca Cola Besar! Makan bareng jadi lebih Nikmat</p>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 7 -->
+              <div class="col-sm-6 col-lg-3 hovered-card">
+                <div class="card">
+                  <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKHqQd7lUmf4ZbAO3Bl_cvNBrxt5l3kUzOvtpC4yBlIcl3jVGotSxv_jEY&s=10" data-lightbox="semua-promo" data-title="Ayam Geprek">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKHqQd7lUmf4ZbAO3Bl_cvNBrxt5l3kUzOvtpC4yBlIcl3jVGotSxv_jEY&s=10" alt="Ayam Geprek" class="card-img-top" />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">Ayam Geprek</h5>
+                    <p class="card-text">Rahasia makan enak itu sederhana: Ayam Geprek + nasi hangat + Es Teh (GRATIS!)</p>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 8 -->
+              <div class="col-sm-6 col-lg-3 hovered-card">
+                <div class="card">
+                  <a href="https://th.bing.com/th/id/OIP.kbjQCtA_at72z3EldA1UmQHaFJ?w=288&h=200&c=7&r=0&o=7&pid=1.7&rm=3" data-lightbox="semua-promo" data-title="Cappuccino">
+                    <img src="https://th.bing.com/th/id/OIP.kbjQCtA_at72z3EldA1UmQHaFJ?w=288&h=200&c=7&r=0&o=7&pid=1.7&rm=3" alt="Cappuccino" class="card-img-top" />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">Cappuccino</h5>
+                    <p class="card-text">Udah pesan Ayam Geprek? Tambah nikmat dengan BONUS Cappucino GRATIS!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ISI PROMO DISKON -->
+          <div id="promoDiskon" class="promo-section" style="display: none">
+            <div class="row g-4">
+              <!-- CARD 1 -->
+              <div class="col-sm-6 col-lg-3 hovered-card">
+                <div class="card">
+                  <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWldJbnVcHgZyDX0f5NnvTD-dmhC1y3GeZBA&sclass=" data-lightbox="semua-promo" data-title="Americano">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWldJbnVcHgZyDX0f5NnvTD-dmhC1y3GeZBA&sclass=" alt="Americano" class="card-img-top" />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">Americano</h5>
+                    <p class="card-text">Nikmati Americano favoritmu dengan potongan harga 15%!, lebih hemat!</p>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 2 -->
+              <div class="col-sm-6 col-lg-3 hovered-card">
+                <div class="card">
+                  <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7juJFjNpxBdXdoUWJU9q0MXcysymUE7etJJyCYIxEsRcrFbBjzpikfFM&s=10class=" data-lightbox="semua-promo" data-title="Matcha">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7juJFjNpxBdXdoUWJU9q0MXcysymUE7etJJyCYIxEsRcrFbBjzpikfFM&s=10class=" alt="Matcha" class="card-img-top" />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">Matcha</h5>
+                    <p class="card-text">Beli 2 Matcha, DISKON Rp5.000! Makin banyak beli, makin hemat!</p>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 3 -->
+              <div class="col-sm-6 col-lg-3 hovered-card">
+                <div class="card">
+                  <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMrnPlDos_T3q_jLgngLZ7jjp8VyOOwEDeLE7olFx7J_q8LfE4Gl_hUp6t&s=10class=" data-lightbox="semua-promo" data-title="Kopi Gula Aren">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMrnPlDos_T3q_jLgngLZ7jjp8VyOOwEDeLE7olFx7J_q8LfE4Gl_hUp6t&s=10class=" alt="Kopi Gula Aren" class="card-img-top" />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">Kopi Gula Aren</h5>
+                    <p class="card-text">Dari Rp14.000 jadi cuma Rp12.000! perpaduan antara gula aren dengan kopi begitu nikmat, wajib coba!</p>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 4 -->
+              <div class="col-sm-6 col-lg-3 hovered-card">
+                <div class="card">
+                  <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9BTdIkKZku4HnwCZH9cO7-wX_0qV-tu3D4BSFptoDgw&s=10" data-lightbox="semua-promo" data-title="Kentang Goreng">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9BTdIkKZku4HnwCZH9cO7-wX_0qV-tu3D4BSFptoDgw&s=10" alt="Kentang Goreng" class="card-img-top" />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">Kentang Goreng</h5>
+                    <p class="card-text">PROMO SPESIAL! Kentang Goreng dari Rp19.000 jadi Rp16.000! renyah dan gurih, dijamin bikin nambah!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ISI PROMO BONUS -->
+          <div id="promoBonus" class="promo-section" style="display: none">
+            <div class="row g-4">
+              <!-- CARD 5 -->
+              <div class="col-sm-6 col-lg-3 hovered-card">
+                <div class="card">
+                  <a href="https://sumbarfokus.com/wp-content/uploads/2023/10/Resep-Es-Teh.jpg" data-lightbox="semua-promo" data-title="Es Teh">
+                    <img src="https://sumbarfokus.com/wp-content/uploads/2023/10/Resep-Es-Teh.jpg" alt="Es Teh" class="card-img-top" />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">Es Teh</h5>
+                    <p class="card-text">Setiap pembelian Rp20.000 GRATIS Es Teh! Makan dan Mimum enak, bonusnya makin mantap!</p>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 6 -->
+              <div class="col-sm-6 col-lg-3 hovered-card">
+                <div class="card">
+                  <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSITz3b3wFlleH8xtvlG6tWmMzm2eL1VUjYnCi0ADpAEg&s=10class=" data-lightbox="semua-promo" data-title="Coca Cola">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSITz3b3wFlleH8xtvlG6tWmMzm2eL1VUjYnCi0ADpAEg&s=10class=" alt="Coca Cola" class="card-img-top" />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">Coca Cola</h5>
+                    <p class="card-text">datang ber-3? GRATIS 1 Coca Cola Besar! Makan bareng jadi lebih Nikmat</p>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 7 -->
+              <div class="col-sm-6 col-lg-3 hovered-card">
+                <div class="card">
+                  <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKHqQd7lUmf4ZbAO3Bl_cvNBrxt5l3kUzOvtpC4yBlIcl3jVGotSxv_jEY&s=10" data-lightbox="semua-promo" data-title="Ayam Geprek">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKHqQd7lUmf4ZbAO3Bl_cvNBrxt5l3kUzOvtpC4yBlIcl3jVGotSxv_jEY&s=10" alt="Ayam Geprek" class="card-img-top" />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">Ayam Geprek</h5>
+                    <p class="card-text">Rahasia makan enak itu sederhana: Ayam Geprek + nasi hangat + Es Teh (GRATIS!)</p>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD 8 -->
+              <div class="col-sm-6 col-lg-3 hovered-card">
+                <div class="card">
+                  <a href="https://th.bing.com/th/id/OIP.kbjQCtA_at72z3EldA1UmQHaFJ?w=288&h=200&c=7&r=0&o=7&pid=1.7&rm=3" data-lightbox="semua-promo" data-title="Cappuccino">
+                    <img src="https://th.bing.com/th/id/OIP.kbjQCtA_at72z3EldA1UmQHaFJ?w=288&h=200&c=7&r=0&o=7&pid=1.7&rm=3" alt="Cappuccino" class="card-img-top" />
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">Cappuccino</h5>
+                    <p class="card-text">Udah pesan Ayam Geprek? Tambah nikmat dengan BONUS Cappucino GRATIS!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- PROMO TUTUP -->
+
+    <!-- SECTION SUBSCRIBE -->
+    <div class="container-fluid py-5 footer">
+      <div class="container">
+        <h5 class="text-center text-light mb-3">Meet Us</h5>
+        <!-- LOGO -->
+        <div class="d-flex justify-content-center mb-5" style="gap: 70px">
+          <a
+            href="https://facebook.com/username"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a
+            href="https://instagram.com/username"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a
+            href="https://twitter.com/username"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="bi bi-twitter-x"></i>
+          </a>
+          <a
+            href="https://youtube.com/@username"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="bi bi-youtube"></i>
+          </a>
+        </div>
+        <h5 class="text-center text-light mb-1">Subscribe</h5>
+        <p class="text-center text-muted mb-3">
+          for information about promotions
+        </p>
+        <!-- SUBSCRIBE -->
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="input-group">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Write Your Email"
+              />
+              <button class="btn btn-warning text-light">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SUBSCRIBE TUTUP -->
+
+    <!--Footer-->
+    <footer class="bg-dark text-light py-4">
+      <div class="container">
+        <div class="row text-center text-md-start">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <h5 class="fw-bold">Kafe Saya</h5>
+            <p class="text-light small">Tempat Makan enak, nyaman, dan terjangkau untuk semua kalanhan.</p>
+          </div>
+          <div class="col-md-4 mb-3 mb-md-0">
+            <h6 class="fw-bold mb-3">navigasi</h6>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-light text-decoration-none">Home</a></li>
+              <li><a href="#" class="text-light text-decoration-none">Produk</a></li>
+              <li><a href="#" class="text-light text-decoration-none">promo</a></li>
+              <li><a href="#" class="text-light text-decoration-none">Reservasi</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h6 class="fw-bold mb-3">kontak</h6>
+            <ul class="list-unstyled text-light small">
+              <li class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i>Jl, contoh No, 123, Surabaya</li>
+              <li class="mb-1"><i class="bi bi-telephone-fill me-2"></i>+62 812 3456 7890</li>
+              <li><i class="bi bi-envelope-fill me-2"></i>kafesaya@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+        <hr class="border-secondary mt-4 mb-3">
+        <p class="text-center text-muted small mb-0">
+          &copy; 2025 kafe saya.All Rights Reserved
+        </p>
+      </div>
+    </footer>
+    <!-- FOOTER TUTUP -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+    <script>
+      const filterBtns = document.querySelectorAll(".filter-btn");
+      const sections = ["semuaPromo", "promoDiskon", "promoBonus"];
+
+      filterBtns.forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          var target = btn.getAttribute("data-target");
+
+          filterBtns.forEach(function (b) {
+            b.classList.remove("active");
+          });
+          btn.classList.add("active");
+
+          sections.forEach(function (id) {
+            var el = document.getElementById(id);
+            if (id === target) {
+              el.style.display = "block";
+
+              el.classList.remove("promo-section");
+              void el.offsetWidth;
+              el.classList.add("promo-section");
+            } else {
+              el.style.display = "none";
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
